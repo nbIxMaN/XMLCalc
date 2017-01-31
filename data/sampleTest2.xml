@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<simpleCalculator xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xsi:noNamespaceSchemaLocation="../Calculator.xsd">
+    <expressions>
+        <expression>
+            <operation OperationType="MUL">
+                <operation OperationType="SUB">
+                    <operation OperationType="SUM">
+                        <arg>5</arg>
+                        <arg>2</arg>
+                    </operation>
+                    <operation OperationType="DIV">
+                        <arg>2</arg>
+                        <arg>7</arg>
+                    </operation>
+                </operation>
+                <operation OperationType="SUB">
+                    <operation OperationType="SUM">
+                        <arg>2</arg>
+                        <arg>5</arg>
+                    </operation>
+                    <operation OperationType="MUL">
+                        <arg>3</arg>
+                        <arg>4</arg>
+                    </operation>
+                </operation>
+            </operation>
+        </expression>
+
+        <expression>
+            <operation OperationType="SUB">
+                <operation OperationType="MUL">
+                    <operation OperationType="DIV">
+                        <arg>611</arg>
+                        <arg>11</arg>
+                    </operation>
+                    <operation OperationType="DIV">
+                        <arg>50</arg>
+                        <arg>12</arg>
+                    </operation>
+                </operation>
+                <operation OperationType="SUB">
+                    <operation OperationType="SUM">
+                        <arg>12</arg>
+                        <arg>35</arg>
+                    </operation>
+                    <operation OperationType="MUL">
+                        <arg>10</arg>
+                        <arg>11</arg>
+                    </operation>
+                </operation>
+            </operation>
+        </expression>
+    </expressions>
+</simpleCalculator>
